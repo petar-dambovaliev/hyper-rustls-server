@@ -1,0 +1,11 @@
+[package]
+name = "rustls-example"
+version = "0.1.0"
+authors = ["eray"]
+edition = "2018"
+
+[dependencies]
+hyper = { version = "0.14.1", features = ["full"] }
+tokio = { version = "1.0.0", features = ["full"] }
+rustls = "0.19"
+tokio-rustls = "0.22"
